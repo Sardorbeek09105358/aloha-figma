@@ -171,7 +171,7 @@ main{
     font-size: 80px;
     font-style: normal;
     font-weight: 400;
-    line-height: 100px; 
+    line-height: 70px; 
     margin-left: 180px;
     margin-top: 50px; 
     animation: animZoom 5s linear forwards;
@@ -184,7 +184,7 @@ main{
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
-    line-height: 36.4px;
+    line-height: 30px;
     margin-left: 180px;
     margin-top: 30px;
     animation: animZoom 5s linear forwards;
@@ -315,6 +315,82 @@ footer{
 }
 
 
+@media(min-width: 450px) and (max-width: 769px){
+    header{
+        width: 90%;
+    }
+    nav ul{
+        display: none;
+    }
+    .text{
+        width: 100%;
+    }
+    .text h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .header-img {
+        padding-left: 40px;
+    }
+    .header-img img{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+    .header-btn{
+        margin: auto;
+    }
+    .section-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .section-flex{
+        margin-bottom: 30px;
+    }
+    .section-flex img{
+        width: 80%;
+    }
+    .section-flex  h2{
+        font-size: 20px;
+        display: inline-block;
+        width: 80%;
+    }
+
+    main{
+        width: 80%;
+        margin: auto;
+    }
+    .main-content{
+        width: 100%;
+        padding-right: 100px;
+    }
+    .main-content p{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .blog-content h1{
+        font-size: 30px;
+    }
+    footer{
+        width: 90%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        padding-left: 100px;
+        gap: 80px;
+        margin-top: 300px;
+    }
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin: auto;
+        text-align: center;
+    }
+}
+
 @media(min-width: 769px) and (max-width: 900px){
     header{
         width: 90%;
@@ -366,8 +442,10 @@ footer{
         width: 100%;
         padding-right: 100px;
     }
+    
     .main-content p{
         font-size: 20px;
+        line-height: 20px;
     }
     .blog-content h1{
         font-size: 30px;
@@ -462,79 +540,3 @@ footer{
         text-align: center;
     }
 }
-
-@media(min-width: 450px) and (max-width: 769px){
-    header{
-        width: 90%;
-    }
-    nav ul{
-        display: none;
-    }
-    .text{
-        width: 100%;
-    }
-    .text h1{
-        font-size: 20px;
-        text-align: center;
-    }
-    .header-img {
-        padding-left: 40px;
-    }
-    .header-img img{
-        width: 80%;
-        margin: auto;
-        text-align: center;
-    }
-    .header-btn{
-        margin: auto;
-    }
-    .section-container {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .section-flex{
-        margin-bottom: 30px;
-    }
-    .section-flex img{
-        width: 80%;
-    }
-    .section-flex  h2{
-        font-size: 20px;
-        display: inline-block;
-        width: 80%;
-    }
-
-    main{
-        width: 80%;
-        margin: auto;
-    }
-    .main-content{
-        width: 100%;
-        padding-right: 100px;
-    }
-    .main-content p{
-        font-size: 20px;
-    }
-    .blog-content h1{
-        font-size: 30px;
-    }
-    footer{
-        width: 90%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        padding-left: 100px;
-        gap: 80px;
-        margin-top: 300px;
-    }
-    .footer-container{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        margin: auto;
-        text-align: center;
-    }
-}
-
